@@ -1,33 +1,33 @@
-// export const Profile = ({
-//   username,
-//   tag,
-//   location,
-//   avatar,
-//   stats: { followers, views, likes },
-// }) => {
-//   return (
-//     <div>
-//       <div>
-//         <Avatar src={avatar} alt="User avatar" />
-//         <Username>{username}</Username>
-//         <Tag>{tag}</Tag>
-//         <Location>{location}</Location>
-//       </div>
-
-//       <div>
-//         <div>
-//           <Label>Followers</Label>
-//           <Quantity>{followers}</Quantity>
-//         </div>
-//         <div>
-//           <Label>Views</Label>
-//           <Quantity>{views}</Quantity>
-//         </div>
-//         <div>
-//           <Label>Likes</Label>
-//           <Quantity>{likes}</Quantity>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
+export const Profile = ({
+  Username,
+  Tag,
+  Location,
+  Avatar,
+  Stats: { Followers, Views, Likes },
+}) => {
+  return (
+    <div>
+      <div>
+        <img src={Avatar} alt="User avatar" />
+        <p>{Username}</p>
+        <p>{Tag}</p>
+        <p>{Location}</p>
+      </div>
+      span
+      <div>
+        <div>
+          <span>Followers</span>
+          <span>{Followers}</span>
+        </div>
+        <div>
+          <span>Views</span>
+          <span>{Views}</span>
+        </div>
+        <div>
+          <span>Likes</span>
+          <span>{Likes}</span>
+        </div>
+      </div>
+    </div>
+  );
+};
