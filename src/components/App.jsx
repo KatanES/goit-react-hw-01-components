@@ -1,8 +1,9 @@
 // import { QuizList } from './quizList';
 // import quizItems from '../components/data.json';
 // import { SearchBar } from './SearchBar';
-import User from './user.json';
-import { Profile } from './ProfileCard';
+import User from './Profile/user.json';
+import { Profile } from './Profile/ProfileCard';
+import { StatsList } from './Profile/Stats';
 
 export const App = () => {
   return (
@@ -14,8 +15,8 @@ export const App = () => {
         Tag={User.tag}
         Location={User.location}
         Avatar={User.avatar}
-        Stats={User.stats}
       />
+      <StatsList Stats={User.stats} />
     </>
   );
 };
