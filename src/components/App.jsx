@@ -3,8 +3,10 @@
 // import { SearchBar } from './SearchBar';
 import User from './Profile/user.json';
 import Data from './Statistics/data-statistics.json';
+import Friends from './FriendsList/friends.json';
 import { Profile } from './Profile/ProfileCard';
 import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './FriendsList/FriendList';
 // import { GlobalStyle } from './GlobalStyle';
 
 export const App = () => {
@@ -20,6 +22,7 @@ export const App = () => {
         stats={User.stats}
       />
       <Statistics title="Upload stats" stats={Data} />
+      <FriendList friends={Friends} />
     </>
   );
 };
