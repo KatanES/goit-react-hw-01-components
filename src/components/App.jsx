@@ -2,7 +2,9 @@
 // import quizItems from '../components/data.json';
 // import { SearchBar } from './SearchBar';
 import User from './Profile/user.json';
+import Data from './Statistics/data-statistics.json';
 import { Profile } from './Profile/ProfileCard';
+import { Statistics } from './Statistics/Statistics';
 // import { GlobalStyle } from './GlobalStyle';
 
 export const App = () => {
@@ -17,6 +19,7 @@ export const App = () => {
         avatar={User.avatar}
         stats={User.stats}
       />
+      <Statistics title="Upload stats" stats={Data} />
     </>
   );
 };
