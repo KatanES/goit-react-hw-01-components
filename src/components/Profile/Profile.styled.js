@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
 export const Avatar = styled.img`
   width: 175px;
   margin-bottom: 30px;
-  background-color: gainsboro;
+  background-color: #ebdcb2;
   border-radius: 50%;
 `;
 
@@ -46,7 +46,7 @@ export const Stats = styled.ul`
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #e8e8e8;
-  background-color: rgb(245, 245, 245);
+  background-color: #c9a66b;
 `;
 
 export const Item = styled.li`
@@ -64,7 +64,7 @@ export const Label = styled.span`
   display: block;
   font-size: 18px;
   font-weight: 600;
-  color: #a9a9a9;
+  color: black;
 `;
 
 export const Quantity = styled.span`

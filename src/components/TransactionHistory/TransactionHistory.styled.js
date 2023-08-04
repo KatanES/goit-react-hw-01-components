@@ -12,14 +12,14 @@ export const Table = styled.table`
 export const TableHead = styled.thead`
   height: 25px;
   tr {
-    background-color: skyblue;
+    background-color: #301b28;
     color: #ffffff;
   }
 `;
 
 export const TableBody = styled.tbody`
   tr:nth-of-type(even) {
-    background-color: lightgray;
+    background-color: #ddc5a2;
   }
 `;
 

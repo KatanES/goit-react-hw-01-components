@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   margin: auto;
   padding: 10px 35px;
   overflow: hidden;
-  background-color: ghostwhite;
+  background-color: #fef2e4;
 `;
 
 export const FriendsList = styled.ul`
