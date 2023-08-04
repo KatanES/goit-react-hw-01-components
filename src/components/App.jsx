@@ -3,7 +3,7 @@
 // import { SearchBar } from './SearchBar';
 import User from './Profile/user.json';
 import { Profile } from './Profile/ProfileCard';
-import { StatsList } from './Profile/Stats';
+// import { GlobalStyle } from './GlobalStyle';
 
 export const App = () => {
   return (
@@ -11,12 +11,12 @@ export const App = () => {
       {/* <SearchBar />
       <QuizList items={quizItems} /> */}
       <Profile
-        Username={User.username}
-        Tag={User.tag}
-        Location={User.location}
-        Avatar={User.avatar}
+        username={User.username}
+        tag={User.tag}
+        location={User.location}
+        avatar={User.avatar}
+        stats={User.stats}
       />
-      <StatsList Stats={User.stats} />
     </>
   );
 };
